@@ -26,9 +26,9 @@ export default function Home() {
       <div className="hidden w-screen h-px animate-glow md:block animate-fade-left bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
       <Particles
         className="absolute inset-0 -z-10 animate-fade-in"
-        quantity={100}
+        quantity={200}
       />
-      <h1 className="z-10 pb-4 text-4xl text-transparent duration-1000 bg-white cursor-default text-edge-outline animate-title font-display sm:text-6xl md:text-9xl whitespace-nowrap bg-clip-text ">
+      <h1 className="z-10 pb-4 text-4xl text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 cursor-default animate-title font-display sm:text-6xl md:text-9xl whitespace-nowrap duration-1000 text-edge-outline">
         Tyson Skakun
       </h1>
 
@@ -42,7 +42,19 @@ export default function Home() {
             className="underline duration-500 hover:text-zinc-300"
           >
             tail-adventures.com
-          </Link> and exploring generative UX/UI.
+          </Link>{" "}
+          and exploring generative UX/UI.
+        </h2>
+        <h2 className="text-sm text-zinc-500 ">
+          Lets build together and{" "}
+          <Link
+            target="_blank"
+            href="https://www.linkedin.com/in/tyson-skakun-tail/"
+            className="underline duration-500 hover:text-zinc-300"
+          >
+            Connect
+          </Link>{" "}
+          today 🚀
         </h2>
       </div>
     </div>

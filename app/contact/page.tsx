@@ -32,13 +32,13 @@ export default function Example() {
       <Navigation />
       <div className="container flex items-center justify-center min-h-screen px-4 mx-auto">
         <div className="grid w-full grid-cols-1 gap-8 mx-auto mt-32 sm:mt-0 sm:grid-cols-3 lg:gap-16">
+					<Particles
+						className="absolute inset-0 -z-10"
+						quantity={300}
+					/>
           {socials.map((s) => (
             <Card>
               <div className="hidden w-screen h-px animate-glow md:block animate-fade-left bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
-              <Particles
-                className="absolute inset-0 -z-10 animate-fade-in"
-                quantity={100}
-              />
               <Link
                 href={s.href}
                 target="_blank"
