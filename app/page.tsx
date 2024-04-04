@@ -9,7 +9,7 @@ const navigation = [
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center justify-center w-screen h-screen overflow-hidden bg-gradient-to-tl from-black via-zinc-600/20 to-black">
+    <div className="flex flex-col items-center justify-center w-screen min-h-screen overflow-hidden bg-gradient-to-tl from-black via-zinc-600/20 to-black">
       <nav className="my-16 animate-fade-in">
         <ul className="flex items-center justify-center gap-4">
           {navigation.map((item) => (
@@ -28,7 +28,7 @@ export default function Home() {
         className="absolute inset-0 -z-10 animate-fade-in"
         quantity={200}
       />
-      <h1 className="z-10 pb-4 text-4xl text-transparent bg-clip-text bg-gradient-to-r from-slate-500 via-pink-300 to-cobalt-500 cursor-default animate-title font-display sm:text-6xl md:text-9xl whitespace-nowrap duration-1000 text-edge-outline">
+      <h1 className="z-10 pb-4 text-4xl text-transparent bg-clip-text bg-gradient-to-r from-slate-500 via-pink-300 to-cobalt-500 cursor-default animate-title font-display sm:text-7xl md:text-9xl whitespace-nowrap duration-1000 text-edge-outline">
         Tyson Skakun
       </h1>
       <h1 className="z-10 pb-4 text-2xl text-transparent bg-clip-text bg-gradient-to-r from-slate-500 via-pink-300 to-cobalt-500 cursor-default animate-title font-display sm:text-6xl md:text-9xl whitespace-nowrap duration-1000 text-edge-outline">
