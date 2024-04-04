@@ -5,24 +5,24 @@ import { Navigation } from "../components/nav";
 import { Card } from "../components/card";
 
 const socials = [
-	{
-		icon: <Twitter size={20} />,
-		href: "https://twitter.com/chronark_",
-		label: "Twitter",
-		handle: "@chronark_",
-	},
-	{
-		icon: <Mail size={20} />,
-		href: "mailto:dev@chronark.com",
-		label: "Email",
-		handle: "dev@chronark.com",
-	},
-	{
-		icon: <Github size={20} />,
-		href: "https://github.com/chronark",
-		label: "Github",
-		handle: "chronark",
-	},
+  {
+    icon: <Twitter size={20} />,
+    href: "https://https://twitter.com/TysonJeremy",
+    label: "X",
+    handle: "@TysonJeremy",
+  },
+  {
+    icon: <Mail size={20} />,
+    href: "mailto:TysonSkakun@gmail.com",
+    label: "Email",
+    handle: "TysonSkakun@gmail.com",
+  },
+  {
+    icon: <Github size={20} />,
+    href: "https://github.com/chronark",
+    label: "Github",
+    handle: "TysonSkakun",
+  },
 ];
 
 export default function Example() {
