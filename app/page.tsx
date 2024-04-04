@@ -28,10 +28,10 @@ export default function Home() {
         className="absolute inset-0 -z-10 animate-fade-in"
         quantity={200}
       />
-      <h1 className="z-10 pb-4 text-4xl text-transparent bg-clip-text bg-gradient-to-r from-slate-500 via-pink-600 to-cobalt-500 cursor-default animate-title font-display sm:text-6xl md:text-9xl whitespace-nowrap duration-1000 text-edge-outline">
+      <h1 className="z-10 pb-4 text-4xl text-transparent bg-clip-text bg-gradient-to-r from-slate-500 via-pink-300 to-cobalt-500 cursor-default animate-title font-display sm:text-6xl md:text-9xl whitespace-nowrap duration-1000 text-edge-outline">
         Tyson Skakun
       </h1>
-      <h1 className="z-10 pb-4 text-2xl text-transparent bg-clip-text bg-gradient-to-r from-slate-500 via-pink-600 to-cobalt-500 cursor-default animate-title font-display sm:text-6xl md:text-9xl whitespace-nowrap duration-1000 text-edge-outline">
+      <h1 className="z-10 pb-4 text-2xl text-transparent bg-clip-text bg-gradient-to-r from-slate-500 via-pink-300 to-cobalt-500 cursor-default animate-title font-display sm:text-6xl md:text-9xl whitespace-nowrap duration-1000 text-edge-outline">
         Developer
       </h1>
 
