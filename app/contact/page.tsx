@@ -28,14 +28,11 @@ const socials = [
 
 export default function Example() {
 	return (
-    <div className=" bg-gradient-to-tl from-zinc-900/0 via-zinc-900 to-zinc-900/0">
+    <div className=" bg-gradient-to-tl from-zinc-900 via-zinc-300/10 to-zinc-900">
       <Navigation />
       <div className="container flex items-center justify-center min-h-screen px-4 mx-auto">
         <div className="grid w-full grid-cols-1 gap-8 mx-auto mt-32 sm:mt-0 sm:grid-cols-3 lg:gap-16">
-					<Particles
-						className="absolute inset-0 -z-10"
-						quantity={300}
-					/>
+          <Particles className="absolute inset-0 -z-10" quantity={300} />
           {socials.map((s) => (
             <Card>
               <div className="hidden w-screen h-px animate-glow md:block animate-fade-left bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
