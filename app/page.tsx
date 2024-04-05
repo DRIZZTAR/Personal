@@ -3,7 +3,7 @@ import React from "react";
 import Particles from "./components/particles";
 
 const navigation = [
-  { name: "Projects", href: "/projects" },
+  { name: "Secret Project", href: "/projects" },
   { name: "Contact", href: "/contact" },
 ];
 
@@ -28,10 +28,10 @@ export default function Home() {
         className="absolute inset-0 -z-10 animate-fade-in"
         quantity={200}
       />
-      <h1 className="z-10 pb-4 text-4xl text-transparent bg-clip-text bg-gradient-to-r from-slate-500 via-pink-300 to-cobalt-500 cursor-default animate-title font-display sm:text-7xl md:text-9xl whitespace-nowrap duration-1000 text-edge-outline">
+      <h1 className="z-10 pb-4 text-5xl text-transparent bg-clip-text bg-gradient-to-r from-slate-500 via-pink-300 to-cobalt-500 cursor-default animate-title font-display sm:text-7xl md:text-9xl whitespace-nowrap duration-1000 text-edge-outline">
         Tyson Skakun
       </h1>
-      <h1 className="z-10 pb-4 text-2xl text-transparent bg-clip-text bg-gradient-to-r from-slate-500 via-pink-300 to-cobalt-500 cursor-default animate-title font-display sm:text-6xl md:text-9xl whitespace-nowrap duration-1000 text-edge-outline">
+      <h1 className="z-10 pb-4 text-4xl text-transparent bg-clip-text bg-gradient-to-r from-slate-500 via-pink-300 to-cobalt-500 cursor-default animate-title font-display sm:text-6xl md:text-8xl whitespace-nowrap duration-1000 text-edge-outline">
         Developer
       </h1>
 
@@ -55,12 +55,11 @@ export default function Home() {
             href="https://www.linkedin.com/in/tyson-skakun-tail/"
             className="underline duration-500 hover:text-zinc-300"
           >
-            Connect
+            Blast Off
           </Link>{" "}
           today 🚀
         </h2>
       </div>
     </div>
   );
-
 }
